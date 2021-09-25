@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using _2019HR603.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace _2019HR603.Controllers
 {
@@ -13,8 +15,7 @@ namespace _2019HR603.Controllers
             this._contexto = miContexto;
         }
 
-       
-       [HttpGet]
+        [HttpGet]
         [Route("api/estado_equipo")]
         public IActionResult Get()
         {

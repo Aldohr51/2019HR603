@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GTllOfYK0snK6t/yNz2hPCEBNsaI0Yj3Z30PqdHDOfyGLGc3TrmalKscyS7waD6/GwVr/6laSCvUxG/lSxYLeg==",
+  "dgSpecHash": "y8UlKf9M0ryd6Of6iDu5GuDZxUxcgG4JOguyOSgivUdfp/c8NyAdvJDGwaK/GK8UpPa0V7naJgBnRA/tlQ10rA==",
   "success": true,
-  "projectFilePath": "c:\\Unicaes\\daw\\apiPrestamos\\2019HR603\\2019HR603.csproj",
+  "projectFilePath": "C:\\Unicaes\\daw\\apiPrestamos\\2019HR603\\2019HR603.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aldo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Aldo\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

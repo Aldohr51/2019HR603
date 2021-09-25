@@ -1,19 +1,21 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using _2019FS602.Models;
+using _2019HR603.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
-namespace _2019FS602.Controllers
+namespace _2019HR603.Controllers
 {
     [ApiController]
     public class tipo_equipoController : ControllerBase
     {
-        private readonly _2019FS602Context _contexto;
+        private readonly _2019HR603Context _contexto;
 
-        public tipo_equipoController(_2019FS602Context miContexto){
+        public tipo_equipoController(_2019HR603Context miContexto){
             this._contexto = miContexto;
         }
 
-      [HttpGet]
+        [HttpGet]
         [Route("api/tipo")]
         public IActionResult Get()
         {

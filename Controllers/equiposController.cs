@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using _2019HR603.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace _2019HR603.Controllers
 {
